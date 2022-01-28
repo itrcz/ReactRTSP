@@ -1,4 +1,4 @@
-module github.com/itrcz/ReactSRTP
+module github.com/itrcz/ReactRTSP
 
 go 1.15
 
