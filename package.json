@@ -1,0 +1,21 @@
+{
+  "name": "react-srtp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "go": "cd service && GO111MODULE=on go run *.go",
+    "react": "esbuild src/app.tsx --servedir=www --outdir=www --bundle",
+    "start": "yarn go & yarn react"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@stage-ui/core": "0.2.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "esbuild": "^0.14.14"
+  }
+}
